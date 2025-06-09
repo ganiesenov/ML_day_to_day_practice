@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # 1. Генерация данных
 np.random.seed(42)
 X_data = np.random.randn(10, 1)
-Y_target = 5 * X_data + np.random.randn(10, 1)
+Y_target = 5 * X_data + np.random.randn(10, 1) 
 
 # 2. Инициализация параметров
 weight = 0.0
