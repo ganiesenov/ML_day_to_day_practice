@@ -15,7 +15,7 @@ bias = 0.0
 lr = 0.1
 epochs = 200
 losses = []
-#
+#   
 # 3. Обучение модели вручную
 for epoch in range(epochs):
     grad_w = 0.0
